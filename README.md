@@ -17,18 +17,30 @@ This application provides a user-friendly chat interface where users can submit 
 ## Architecture
 
 ```
-├── index.html          # Main application HTML and inline CSS/JS
-├── README.md           # This documentation
-├── prompt-examples.md  # Example prompts for GPT integration
-└── server/             # Backend implementation
-    ├── app.js          # Express server setup
-    ├── gptService.js   # GPT API integration
-    └── promptUtils.js  # Prompt management utilities
+📦 Project Root
+├── 📂 public             # Main application HTML and inline CSS/JS  
+│   ├── 📂 css
+│   │   └── styles.css
+│   ├── 📂 js
+│   │   ├── api.js
+│   │   ├── app.js
+│   │   ├── chat.js
+│   │   └── ui.js
+│   └── index.html  
+│  
+├── 📜 README.md              # This documentation  
+├── 📜 prompt-examples.md     # Example prompts for GPT integration  
+│  
+└── 📂 server                 # Backend implementation  
+    ├── app.js               # Express server setup  
+    ├── gptService.js        # GPT API integration  
+    └── promptUtils.js       # Prompt management utilities  
+
 ```
 
 ### Frontend
 
-The frontend is built with vanilla HTML, CSS, and JavaScript for simplicity and ease of deployment. It features:
+The frontend is built with vanilla HTML, CSS, and JavaScript for simplicity. It features:
 
 - Responsive design that works on both desktop and mobile devices
 - Real-time message display with typing indicators
@@ -77,8 +89,8 @@ Respond in a helpful, encouraging tone.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/dsa-teaching-assistant.git
-   cd dsa-teaching-assistant
+   git clone https://github.com/itsAbhayRaj/dsa-asist.git
+   cd dsa-assist
    ```
 
 2. Install dependencies:
